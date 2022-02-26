@@ -8,11 +8,13 @@
 > npm install @react-navigation/stack @react-navigation/bottom-tabs
 
 
-
 2. 스타일 작업 편의성 (styled-components)
 > npm install styled-components
 
 
-
 3. 타입확인(prop-types)
 > npm install prop-types
+
+
+4. 앱로딩 (expo-app-loading)
+> expo install expo-app-loading
