@@ -1,0 +1,28 @@
+cmd는 모두 관리자 계정 에서 실행
+
+1. choco 설치
+@%SystemRoot%System32WindowsPowerShellv1.0powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command iex ((New-Object System.Net.WebClient).DownloadString('httpschocolatey.orginstall.ps1')) && SET PATH=%PATH%;%ALLUSERSPROFILE%chocolateybin
+→ cmd 껏다켜고 설치 확인
+> choco –version
+
+2. nodejs 설치
+> choco install -y nodejs-lts
+→ cmd 껏다켜고 설치확인
+> node -–version
+> npm --version
+
+3. 파이썬 설치 (설치 안되어 있으면)
+> choco install -y python2
+> python --version
+
+4. expo-cli 설치
+> npm install --global expo-cli
+
+5. expo 프로젝트 생성
+> expo init ReactNativeSample
+→ blank 선택
+> cd ReactNativeSample
+
+5. expo 프로젝트 실행
+> npm start
+ 
