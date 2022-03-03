@@ -1,20 +1,26 @@
-1-1. 리엑트 네비게이션 추가
+1. 리엑트 네비게이션 추가
 > npm install @react-navigation/native
 
-1-2. 리엑트 네비게이션 의존 패키지 설치
+2. 리엑트 네비게이션 의존 패키지 설치
 > expo install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 
-1-3. 스택 내비게이션, 탭 내비게이션 
+3. 스택 내비게이션, 탭 내비게이션 
 > npm install @react-navigation/stack @react-navigation/bottom-tabs
 
-
-2. 스타일 작업 편의성 (styled-components)
+4. 스타일 작업 편의성 (styled-components)
 > npm install styled-components
 
-
-3. 타입확인(prop-types)
+5. 타입확인(prop-types)
 > npm install prop-types
 
-
-4. 앱로딩 (expo-app-loading)
+6. 앱로딩 (expo-app-loading)
 > expo install expo-app-loading
+
+7. expo 아이콘
+> npm install @expo/vector-icons
+
+8. image-picker
+> npm install expo-image-picker
+
+9. react-native-keyboard-aware-scroll-view
+> npm install react-native-keyboard-aware-scroll-view
