@@ -1,7 +1,7 @@
 cmd는 모두 관리자 계정 에서 실행
 
 1. choco 설치
-@%SystemRoot%System32WindowsPowerShellv1.0powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command iex ((New-Object System.Net.WebClient).DownloadString('httpschocolatey.orginstall.ps1')) && SET PATH=%PATH%;%ALLUSERSPROFILE%chocolateybin
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 → cmd 껏다켜고 설치 확인
 > choco –version
 
