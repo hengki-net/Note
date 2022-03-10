@@ -7,3 +7,48 @@
 3. 구동 확인
 > 웹 브라우저에서
 > http://127.0.0.1:8000/
+
+
+4. app 생성
+> django-admin startapp api
+
+
+5. config/settings.py 설정
+
+ALLOWED_HOSTS = ['*']
+/
+
+INSTALLED_APPS 추가
+'rest_framework',
+'corsheaders',
+/
+
+MIDDLEWARE 추가
+'corsheaders.middleware.CorsMiddleware', 
+/
+
+신규 항목추가
+CORS_ORIGEN_ALLOW_ALL = True
+/
+
+데이터 베이스 설정(oracle)
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.oracle',
+       'NAME': 'appenv',
+       'USER': 'appenv',
+       'PASSWORD': 'appenv',
+       'HOST': '172.31.40.173',
+       'PORT': '1521',
+   }
+}
+
+/
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_TZ = True
+

@@ -1,0 +1,4 @@
+1. 자동으로 model 생성
+> python manage.py inspectdb > models.py
+> python manage.py makemigrations api
+> python manage.py migrate
