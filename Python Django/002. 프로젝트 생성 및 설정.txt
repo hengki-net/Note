@@ -1,0 +1,9 @@
+1. 장고 프로젝트 생성 (venv 폴더와 동일한 위치에서)
+> django-admin startproject config .
+
+2. 장고 서버 기동 (test)
+> python manage.py runserver
+
+3. 구동 확인
+> 웹 브라우저에서
+> http://127.0.0.1:8000/
