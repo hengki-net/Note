@@ -1,0 +1,47 @@
+### 설치
+
+## 1. jdk 설치
+> choco install -y zulu12
+  
+  
+## 2. 안드로이드 스튜디오 설치 설정
+> choco install -y androidstudio
+→ 환경 변수에 ANDROID_HOME 추가
+  
+## Flutter sdk 설치
+> choco install -y flutter
+→ c:\tools 설치됨
+  
+  
+## flutter 설치 확인
+> flutter doctor
+
+# 에러 발생시
+→ Android SDK Command-line Tools 설치
+→ flutter doctor --android-licenses
+  
+  
+## AndroidStudio 플러그인 설치
+→ flutter 설치  
+→ 플러그인 설치후 재시작하면 new flutter Project 활성화됨. 
+  
+  
+### 설정
+→ New Flutter Project
+→ Flutter 항목 선택
+→ flutter SDK Path 지정
+→ Next
+→ New Project 항목 설정
+→ Project Name은 소문자와 언더바(_)만 가능하다.
+→ finish
+
+
+###
+스플리쉬
+> flutter pub add flutter_native_splash --dev
+
+전역변수사용
+> flutter pub add provider
+
+# GET_IT 설치
+dart pub add get_it

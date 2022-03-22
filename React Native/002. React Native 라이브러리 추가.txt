@@ -24,3 +24,10 @@
 
 9. react-native-keyboard-aware-scroll-view
 > npm install react-native-keyboard-aware-scroll-view
+
+10. axios
+> npm install axios --save
+
+11. 메뉴
+> npm install react-native-menu-viewer
+> npm i react-native-vector-icons

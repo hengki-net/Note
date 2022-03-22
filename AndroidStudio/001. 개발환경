@@ -1,0 +1,7 @@
+## 설치
+
+# jdk 설치
+> choco install -y openjdk11
+
+# 안드로이드 스튜디오
+> choco install -y androidstudio
